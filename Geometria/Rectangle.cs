@@ -13,15 +13,29 @@ namespace Geometria
     {
         public int Width;
         public int Height;
+        public int area;
+        public int perimeter;
 
         public int CalculateArea()
         {
-            return Width * Height;
+            int area = Width * Height;
+            return area;
         }
 
         public int CalculatePerimeter()
         {
-            return (Width + Height) * 2;
+            int perimeter = (Width + Height) * 2;
+            return perimeter;
+        }
+
+        public void Print(int num)
+        {
+            Console.WriteLine("--------- Rettangolo " + num + " ---------");
+            Console.WriteLine("Base: \t \t" + Width + " cm");
+            Console.WriteLine("Altezza: \t" + Height + " cm");
+            Console.WriteLine("Perimetro: \t" + perimeter + " cm");
+            Console.WriteLine("Area: \t \t" + area + " cm^2");
+            Console.WriteLine();
         }
     }
 }
