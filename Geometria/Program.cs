@@ -55,3 +55,4 @@ Rectangle_1.Height = UserHeight;
 
 int area = 0;
 
+area = Rectangle_1.CalculateArea();
