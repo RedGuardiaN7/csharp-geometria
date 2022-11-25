@@ -36,5 +36,34 @@ namespace Bonus
             Console.WriteLine("Area: \t \t" + area + " cm^2");
             Console.WriteLine();
         }
+
+        public void Draw(int num)
+        {
+
+            Console.WriteLine("Disegno del rettangolo " + num + ":");
+            Console.WriteLine();
+
+            string draw_1 = "";
+            for (int i = 0; i < Width; i++)
+            {
+                draw_1 += "——";
+            }
+
+            string gap = "";
+
+            for (int i = 1; i <= (Width * 2) - 2; i++)
+            {
+                gap += " ";
+            }
+            
+            Console.WriteLine(draw_1);
+
+            for (int i = 1; i <= Height; i++)
+            {
+                Console.WriteLine("|" + gap + "|");
+            }
+
+            Console.WriteLine(draw_1);
+        }
     }
 }

@@ -58,27 +58,4 @@ Rectangle_1.perimeter = Rectangle_1.CalculatePerimeter();
 
 Rectangle_1.Print(1);
 
-//Prova con diversi rettangoli
-//Rettangolo 2
-
-Rectangle Rectangle_2 = new Rectangle();
-
-Rectangle_2.Width = 8;
-
-Rectangle_2.Height = 5;
-
-Rectangle_2.perimeter = Rectangle_2.CalculatePerimeter();
-Rectangle_2.area= Rectangle_2.CalculateArea();
-Rectangle_2.Print(2);
-
-//Rettangolo 3
-
-Rectangle Rectangle_3 = new Rectangle();
-
-Rectangle_3.Width = 18;
-
-Rectangle_3.Height = 4;
-
-Rectangle_3.perimeter = Rectangle_3.CalculatePerimeter();
-Rectangle_3.area = Rectangle_3.CalculateArea();
-Rectangle_3.Print(2);
+Rectangle_1.Draw(1);
