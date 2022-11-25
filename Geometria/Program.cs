@@ -3,7 +3,7 @@
 
 //Viene creato l'oggetto prima di tutto
 
-using System.Drawing;
+using Geometria;
 
 Rectangle Rectangle_1 = new Rectangle();
 
@@ -56,3 +56,9 @@ Rectangle_1.Height = UserHeight;
 int area = 0;
 
 area = Rectangle_1.CalculateArea();
+
+int perimeter = 0;
+
+perimeter = Rectangle_1.CalculatePerimeter();
+
+Console.WriteLine(area);

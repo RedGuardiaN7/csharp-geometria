@@ -11,17 +11,17 @@ namespace Geometria
 {
     public class Rectangle
     {
-        public int RectangleWidth;
-        public int RectangleHeight;
+        public int Width;
+        public int Height;
 
         public int CalculateArea()
         {
-            return RectangleWidth * RectangleHeight;
+            return Width * Height;
         }
 
         public int CalculatePerimeter()
         {
-            return (RectangleWidth + RectangleHeight) * 2;
+            return (Width + Height) * 2;
         }
     }
 }
